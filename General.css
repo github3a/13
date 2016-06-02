@@ -1,0 +1,90 @@
+/*software para maquetar*/
+/*descargar JQuery*/
+<!--HTML5-frame-->
+@charset "utf-8";
+
+.caja .cabecera{
+    color:darkblue;
+    opacity: 0.5;
+    background-color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    float:inherit;
+}
+
+.caja .menu{
+    color:blue;
+    opacity: 0.5;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 5em;
+
+}
+
+.caja .contenido{
+    color:black;
+    opacity: 1.5;
+    width: 50%;
+    background-color:darkgray;
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 20em;
+    float:right;
+    text-align: center;
+}
+
+.caja .destacados{
+    color: black;
+    opacity: 1.5;
+    background-color:darkgray;
+    float: right;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 20em;
+    text-align: center;
+}
+
+.caja .pie{
+    color: black;
+    opacity: 1.5;
+    clear:both;
+    background-color:darkgray;
+    padding: 10px;
+}
+
+ul{
+		list-style-type:disc;
+		margin-bottom:20px;
+		padding: 5px;
+		border-left-width: 5px;
+		border-left-style:dashed;
+		border-left-color:firebrick;
+		overflow:hidden;
+
+	}
+	li{
+		display:inline-table;
+	}
+	a{
+		font-family:Sans-serif;
+		color: black;
+		text-decoration:underline;
+		font-size: 0.9em;
+		display: block;
+		float: left;
+		padding: 6px;
+		border-bottom-width: 2px;
+		border-bottom-style:outset;
+		border-bottom-color: white;
+		background-color:darkgray;
+		border-top-width: 2px;
+		border-top-style: solid;
+		border-top-color: #ccc;
+		border-right-width: 1px;
+		border-right-style: solid;
+		border-right-color: coral;
+	}
+
+</head>
